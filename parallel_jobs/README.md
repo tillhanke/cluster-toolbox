@@ -1,7 +1,11 @@
-# Why does this exist?
+# Why does this even exist?
 The cluster currently does not accept the OverSubscribe option. In order to run multiple jobs on one node you need to use some "tricks". 
 
-One way would be to use the background command option && within your bashscript. If this does not suite your needs you can also use the here described method of mpi within a bash script.
+One way would be to use the background command option && within your bashscript. 
+
+Another way could be to exclusively assign one node to all your jobs.
+
+If this does not suite your needs you can also use the here described method of mpi within a bash script.
 
 # MPI within a bash-script
 This is only to enable sequential programms to run multiple times in a parallel manner. <br>
